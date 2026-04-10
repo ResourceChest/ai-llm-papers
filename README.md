@@ -55,6 +55,8 @@ A curated reading list of foundational and frontier research papers in AI and la
 
 - [**Multi-Head Attention as Mixture-of-Head Attention**](https://arxiv.org/abs/2404.07454) (Jin et al., 2024) -- MoH. Treats attention heads as experts, dynamically activating only the most relevant heads per token to reduce compute.
 
+- [**TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate**](https://arxiv.org/abs/2504.19874) (Zandieh et al., 2025) -- Google's lightweight, accelerator-friendly quantization method for KV cache compression. Achieves quality-neutral 3.5-bit and near-lossless 2.5-bit quantization per channel using a two-stage MSE + QJL approach.
+
 ## Training, Alignment & RL
 
 - [**Training language models to follow instructions with human feedback**](https://arxiv.org/abs/2203.02155) (Ouyang et al., 2022) -- InstructGPT / RLHF. Established the SFT + reward model + PPO pipeline for aligning language models to human intent.
